@@ -1,212 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="14.394" tests="4" errors="0" skipped="2" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.305" tests="0" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="16.0.1+9-24"/>
-    <property name="sun.boot.library.path" value="C:\Users\sanford.alexander\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Sanford\Eclipse Projects\XboxAssignment"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="path.separator" value=";"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="LOGONSERVER" value="\\STLCOLODC01"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_311\jre"/>
+    <property name="NODE_NAME" value="built-in"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\endorsed"/>
+    <property name="PSModulePath" value="C:\Users\Koby.Yoshida\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="=::" value="::\"/>
+    <property name="USERDOMAIN" value="PERFICIENT"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="US"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Sanford\Eclipse Projects\XboxAssignment"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="16.0.1+9-24"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\SANFOR~1.ALE\AppData\Local\Temp\"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\sanford.alexander\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7192024245587080942.tmp"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\sanford.alexander\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/sanford.alexander/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205/jre/bin/server;C:/Users/sanford.alexander/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_212\bin;C:\Users\sanford.alexander\AppData\Local\Android\Sdk\tools\bin;C:\Users\sanford.alexander\AppData\Local\Android\Sdk\tools;C:\Users\sanford.alexander\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Java\jdk1.8.0_291\bin;;C:\Program Files\Azure Data Studio\bin;C:\WINDOWS\system32;;."/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="60.0"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="user.home" value="C:\Users\sanford.alexander"/>
-    <property name="user.timezone" value="America/Chicago"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="java.specification.version" value="16"/>
-    <property name="user.name" value="sanford.alexander"/>
-    <property name="java.class.path" value="C:\Users\sanford.alexander\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.18.0.20210603-1206\jars\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="16"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
-    <property name="java.home" value="C:\Users\sanford.alexander\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre"/>
-    <property name="user.language" value="en"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="16.0.1"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Sanford\Eclipse Projects\XboxAssignment\EMBEDDED"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.version.date" value="2021-04-20"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="1.8.0_311"/>
+    <property name="JOB_NAME" value="Xbox Project"/>
+    <property name="COMPUTERNAME" value="PRFT-16802"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="ChocolateyLastPathUpdate" value="132875576725338024"/>
+    <property name="user.name" value="koby.yoshida"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\windows"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 141 Stepping 1, GenuineIntel"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\Koby.Yoshida\AppData\Local"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Xbox%20Project/9/display/redirect?page=changes"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="16"/>
+    <property name="BUILD_TAG" value="jenkins-Xbox Project-9"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Koby.Yoshida\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4 C:\Users\Koby.Yoshida\.jenkins\war\WEB-INF\lib\remoting-4.11.2.jar C:\Users\Koby.Yoshida\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\Koby.Yoshida\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 63501"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="c6b15683e8e504b6"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_311/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\Git\cmd;%MAVEN_HOME%\bin;%JAVA_HOME%\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Koby.Yoshida\Documents\Terraform\terraform_1.1.4_windows_amd64;C:\Users\Koby.Yoshida\AppData\Roaming\npm"/>
+    <property name="GIT_COMMIT" value="8750554681dca2e14ce529c94baf73bc17bdbf1d"/>
+    <property name="java.io.tmpdir" value="C:\Users\KOBY~1.YOS\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\Koby.Yoshida\AppData\Roaming"/>
+    <property name="user.language" value="en"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Xbox%20Project/9/"/>
+    <property name="M2_HOME" value="C:\Users\Koby.Yoshida\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4"/>
+    <property name="ZES_ENABLE_SYSMAN" value="1"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="CI" value="true"/>
+    <property name="BUILD_DISPLAY_NAME" value="#9"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_SERVER_COOKIE" value="c6b15683e8e504b6"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\Koby.Yoshida\.jenkins\workspace\Xbox Project@tmp"/>
+    <property name="MAVEN_HOME" value="C:\Users\Koby.Yoshida\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\Koby.Yoshida\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="jansi.mode" value="strip"/>
+    <property name="HOMEPATH" value="\Users\Koby.Yoshida"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="9"/>
+    <property name="maven3.interceptor" value="C:\Users\Koby.Yoshida\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_311\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\Koby.Yoshida\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4/bin;C:\Program Files\Java\jdk1.8.0_311/bin;C:\Program Files\Java\jdk1.8.0_311/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\Git\cmd;%MAVEN_HOME%\bin;%JAVA_HOME%\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Koby.Yoshida\Documents\Terraform\terraform_1.1.4_windows_amd64;C:\Users\Koby.Yoshida\AppData\Roaming\npm;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="POM_GROUPID" value="TEST"/>
+    <property name="POM_ARTIFACTID" value="PerficientGDCSeleniumFrameworkMaven"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/Xbox%20Project/"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="8750554681dca2e14ce529c94baf73bc17bdbf1d"/>
+    <property name="OneDrive" value="C:\Users\Koby.Yoshida\OneDrive"/>
+    <property name="GIT_BRANCH" value="origin/main"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Xbox%20Project/9/display/redirect"/>
+    <property name="JENKINS_HOME" value="C:\Users\Koby.Yoshida\.jenkins"/>
+    <property name="BUILD_ID" value="9"/>
+    <property name="TEMP" value="C:\Users\KOBY~1.YOS\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\bin"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="8d01"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="HUDSON_HOME" value="C:\Users\Koby.Yoshida\.jenkins"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="8750554681dca2e14ce529c94baf73bc17bdbf1d"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\Users\Koby.Yoshida\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4/bin"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="PERFICIENT"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/Xbox%20Project/9/display/redirect?page=artifacts"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_311"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="built-in"/>
     <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\Koby.Yoshida"/>
+    <property name="__PSLockDownPolicy" value="0"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Xbox%20Project/display/redirect"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Koby.Yoshida"/>
+    <property name="USERNAME" value="koby.yoshida"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERDNSDOMAIN" value="perficient.com"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="C:\Users\Koby.Yoshida\Downloads\xbox_final\XboxAssignment\XboxAssignment"/>
+    <property name="maven.conf" value="C:\Users\Koby.Yoshida\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4\conf"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\Users\KOBY~1.YOS\AppData\Local\Temp"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="java.vm.version" value="25.311-b11"/>
+    <property name="java.class.path" value="C:\Users\Koby.Yoshida\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\Koby.Yoshida\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar;C:\Users\Koby.Yoshida\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="C:\Users\Koby.Yoshida\.jenkins\workspace\Xbox Project"/>
+    <property name="ComSpec" value="C:\windows\system32\cmd.exe"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/Xbox%20Project/9/display/redirect?page=tests"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="SystemRoot" value="C:\windows"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="file.separator" value="\"/>
+    <property name="ChocolateyInstall" value="C:\ProgramData\chocolatey"/>
+    <property name="java.runtime.version" value="1.8.0_311-b11"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_311\jre\classes"/>
+    <property name="$env:path" value="$env:Path;C:\Python27"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_311/bin"/>
+    <property name="user.country" value="US"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="maven.home" value="C:\Users\Koby.Yoshida\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4"/>
+    <property name="JOB_BASE_NAME" value="Xbox Project"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="PerficientGDCSeleniumFrameworkMaven"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="GIT_URL" value="https://github.com/kobyyoshidaP/xbox_final"/>
   </properties>
-  <testcase name="gameTest" classname="xbox.testcases.GameListTest" time="10.331"/>
-  <testcase name="tearDown" classname="xbox.testcases.GameListTest" time="10.594">
-    <failure message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;PRFT-13975&apos;, ip: &apos;192.168.0.36&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;&#10;Driver info: driver.version: EventFiringWebDriver&#10;Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}), userDataDir=C:\Users\SANFOR~1.ALE\AppData\Local\Temp\scoped_dir24244_1616679876}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:61813}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=96.0.4664.110, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: 75d4065c9207310d0b79a73fcbda4c8d" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: 
-Error communicating with the remote browser. It may have died.
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'PRFT-13975', ip: '192.168.0.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: driver.version: EventFiringWebDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}), userDataDir=C:\Users\SANFOR~1.ALE\AppData\Local\Temp\scoped_dir24244_1616679876}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:61813}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=96.0.4664.110, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
-Session ID: 75d4065c9207310d0b79a73fcbda4c8d
-Caused by: java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn't taskkill it: Couldn't detect pid
-Caused by: java.lang.RuntimeException: Couldn't detect pid
-Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final long java.lang.ProcessImpl.handle accessible: module java.base does not "opens java.lang" to unnamed module @7fac631b
-</failure>
-    <system-err><![CDATA[Jan 19, 2022 6:35:08 AM org.openqa.selenium.os.ProcessUtils killWinProcess
-WARNING: Process refused to die after 10 seconds, and couldn't taskkill it
-java.lang.RuntimeException: Couldn't detect pid
-	at org.openqa.selenium.os.ProcessUtils.getProcessId(ProcessUtils.java:195)
-	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:128)
-	at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)
-	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:246)
-	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$200(UnixProcess.java:200)
-	at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:126)
-	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:153)
-	at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:221)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:94)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:533)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
-	at jdk.proxy2/jdk.proxy2.$Proxy10.quit(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:202)
-	at util.TestCaseBase.tearDown(TestCaseBase.java:224)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final long java.lang.ProcessImpl.handle accessible: module java.base does not "opens java.lang" to unnamed module @7fac631b
-	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
-	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
-	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:177)
-	at java.base/java.lang.reflect.Field.setAccessible(Field.java:171)
-	at org.openqa.selenium.os.ProcessUtils.getProcessId(ProcessUtils.java:181)
-	... 49 more
-
-Jan 19, 2022 6:35:08 AM util.LogWebDriverEventListener onException
-SEVERE: WebDriver error:
-org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'PRFT-13975', ip: '192.168.0.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: driver.version: EventFiringWebDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}), userDataDir=C:\Users\SANFOR~1.ALE\AppData\Local\Temp\scoped_dir24244_1616679876}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:61813}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=96.0.4664.110, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
-Session ID: 75d4065c9207310d0b79a73fcbda4c8d
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:533)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
-	at jdk.proxy2/jdk.proxy2.$Proxy10.quit(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:202)
-	at util.TestCaseBase.tearDown(TestCaseBase.java:224)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-Caused by: java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn't taskkill it: Couldn't detect pid
-	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:133)
-	at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)
-	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:246)
-	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$200(UnixProcess.java:200)
-	at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:126)
-	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:153)
-	at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:221)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:94)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	... 40 more
-Caused by: java.lang.RuntimeException: Couldn't detect pid
-	at org.openqa.selenium.os.ProcessUtils.getProcessId(ProcessUtils.java:195)
-	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:128)
-	... 48 more
-Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final long java.lang.ProcessImpl.handle accessible: module java.base does not "opens java.lang" to unnamed module @7fac631b
-	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
-	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
-	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:177)
-	at java.base/java.lang.reflect.Field.setAccessible(Field.java:171)
-	at org.openqa.selenium.os.ProcessUtils.getProcessId(ProcessUtils.java:181)
-	... 49 more
-
-]]></system-err>
-  </testcase>
-  <testcase name="setUpBrowser" classname="xbox.testcases.XboxLeaderboardTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="leaderboardTest" classname="xbox.testcases.XboxLeaderboardTest" time="0">
-    <skipped/>
-  </testcase>
 </testsuite>
