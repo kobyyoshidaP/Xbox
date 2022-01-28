@@ -12,12 +12,13 @@ import java.util.Properties;
 
 
 public class XboxVerify extends TestCaseBase {
-	HashMap<String, String> gamertags = new HashMap<String, String>();
-	Properties PROPERTIES_RESOURCES = SystemUtil
-			.loadPropertiesResources("/testdata_xbox.properties");
+	
 	@Test(groups = {"ChromeWin32", "IEWin32"})
 	
 	public void open() throws InterruptedException {
+		HashMap<String, String> gamertags = new HashMap<String, String>();
+		Properties PROPERTIES_RESOURCES = SystemUtil
+				.loadPropertiesResources("/testdata_xbox.properties");
 		
 		String lead1 = PROPERTIES_RESOURCES.getProperty("xbox.lead1");
 		String lead2 = PROPERTIES_RESOURCES.getProperty("xbox.lead2");

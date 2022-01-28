@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.305" tests="0" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.309" tests="0" errors="0" skipped="0" failures="0">
   <properties>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -30,24 +30,24 @@
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 141 Stepping 1, GenuineIntel"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="LOCALAPPDATA" value="C:\Users\Koby.Yoshida\AppData\Local"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Xbox%20Project/9/display/redirect?page=changes"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Xbox%20Project/14/display/redirect?page=changes"/>
     <property name="user.timezone" value="America/Chicago"/>
     <property name="user.script" value=""/>
     <property name="path.separator" value=";"/>
     <property name="NUMBER_OF_PROCESSORS" value="16"/>
-    <property name="BUILD_TAG" value="jenkins-Xbox Project-9"/>
+    <property name="BUILD_TAG" value="jenkins-Xbox Project-14"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Koby.Yoshida\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4 C:\Users\Koby.Yoshida\.jenkins\war\WEB-INF\lib\remoting-4.11.2.jar C:\Users\Koby.Yoshida\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\Koby.Yoshida\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 63501"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Koby.Yoshida\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4 C:\Users\Koby.Yoshida\.jenkins\war\WEB-INF\lib\remoting-4.11.2.jar C:\Users\Koby.Yoshida\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\Koby.Yoshida\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 50131"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="JENKINS_SERVER_COOKIE" value="c6b15683e8e504b6"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_311/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\Git\cmd;%MAVEN_HOME%\bin;%JAVA_HOME%\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Koby.Yoshida\Documents\Terraform\terraform_1.1.4_windows_amd64;C:\Users\Koby.Yoshida\AppData\Roaming\npm"/>
-    <property name="GIT_COMMIT" value="8750554681dca2e14ce529c94baf73bc17bdbf1d"/>
+    <property name="GIT_COMMIT" value="9509c3ca20f42ee0494ae710997c2f431d8b3261"/>
     <property name="java.io.tmpdir" value="C:\Users\KOBY~1.YOS\AppData\Local\Temp\"/>
     <property name="APPDATA" value="C:\Users\Koby.Yoshida\AppData\Roaming"/>
     <property name="user.language" value="en"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/Xbox%20Project/9/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Xbox%20Project/14/"/>
     <property name="M2_HOME" value="C:\Users\Koby.Yoshida\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4"/>
     <property name="ZES_ENABLE_SYSMAN" value="1"/>
     <property name="java.vm.info" value="mixed mode"/>
@@ -55,7 +55,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="CI" value="true"/>
-    <property name="BUILD_DISPLAY_NAME" value="#9"/>
+    <property name="BUILD_DISPLAY_NAME" value="#14"/>
     <property name="OS" value="Windows_NT"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="HUDSON_SERVER_COOKIE" value="c6b15683e8e504b6"/>
@@ -71,7 +71,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="9"/>
+    <property name="BUILD_NUMBER" value="14"/>
     <property name="maven3.interceptor" value="C:\Users\Koby.Yoshida\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_311\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\Koby.Yoshida\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4/bin;C:\Program Files\Java\jdk1.8.0_311/bin;C:\Program Files\Java\jdk1.8.0_311/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\Git\cmd;%MAVEN_HOME%\bin;%JAVA_HOME%\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Koby.Yoshida\Documents\Terraform\terraform_1.1.4_windows_amd64;C:\Users\Koby.Yoshida\AppData\Roaming\npm;."/>
     <property name="HOMEDRIVE" value="C:"/>
@@ -79,12 +79,12 @@
     <property name="POM_ARTIFACTID" value="PerficientGDCSeleniumFrameworkMaven"/>
     <property name="java.class.version" value="52.0"/>
     <property name="JOB_URL" value="http://localhost:8080/job/Xbox%20Project/"/>
-    <property name="GIT_PREVIOUS_COMMIT" value="8750554681dca2e14ce529c94baf73bc17bdbf1d"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="9509c3ca20f42ee0494ae710997c2f431d8b3261"/>
     <property name="OneDrive" value="C:\Users\Koby.Yoshida\OneDrive"/>
-    <property name="GIT_BRANCH" value="origin/main"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Xbox%20Project/9/display/redirect"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Xbox%20Project/14/display/redirect"/>
     <property name="JENKINS_HOME" value="C:\Users\Koby.Yoshida\.jenkins"/>
-    <property name="BUILD_ID" value="9"/>
+    <property name="BUILD_ID" value="14"/>
     <property name="TEMP" value="C:\Users\KOBY~1.YOS\AppData\Local\Temp"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\bin"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -93,11 +93,11 @@
     <property name="PROCESSOR_REVISION" value="8d01"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="HUDSON_HOME" value="C:\Users\Koby.Yoshida\.jenkins"/>
-    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="8750554681dca2e14ce529c94baf73bc17bdbf1d"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="9509c3ca20f42ee0494ae710997c2f431d8b3261"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
     <property name="PATH+MAVEN" value="C:\Users\Koby.Yoshida\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4/bin"/>
     <property name="USERDOMAIN_ROAMINGPROFILE" value="PERFICIENT"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/Xbox%20Project/9/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/Xbox%20Project/14/display/redirect?page=artifacts"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_311"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -114,7 +114,7 @@
     <property name="PROCESSOR_LEVEL" value="6"/>
     <property name="USERDNSDOMAIN" value="perficient.com"/>
     <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
-    <property name="user.dir" value="C:\Users\Koby.Yoshida\Downloads\xbox_final\XboxAssignment\XboxAssignment"/>
+    <property name="user.dir" value="C:\Users\Koby.Yoshida\Documents\XboxAssignment\XboxAssignment"/>
     <property name="maven.conf" value="C:\Users\Koby.Yoshida\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4\conf"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="TMP" value="C:\Users\KOBY~1.YOS\AppData\Local\Temp"/>
@@ -126,7 +126,7 @@
     <property name="os.arch" value="amd64"/>
     <property name="WORKSPACE" value="C:\Users\Koby.Yoshida\.jenkins\workspace\Xbox Project"/>
     <property name="ComSpec" value="C:\windows\system32\cmd.exe"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/Xbox%20Project/9/display/redirect?page=tests"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/Xbox%20Project/14/display/redirect?page=tests"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
     <property name="SystemRoot" value="C:\windows"/>
@@ -148,6 +148,6 @@
     <property name="POM_DISPLAYNAME" value="PerficientGDCSeleniumFrameworkMaven"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="GIT_URL" value="https://github.com/kobyyoshidaP/xbox_final"/>
+    <property name="GIT_URL" value="https://github.com/kobyyoshidaP/Xbox"/>
   </properties>
 </testsuite>
