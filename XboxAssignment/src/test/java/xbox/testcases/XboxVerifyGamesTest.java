@@ -11,7 +11,7 @@ import java.util.HashMap; // import the HashMap class
 import java.util.Properties;
 
 
-public class XboxVerifyGames extends TestCaseBase {
+public class XboxVerifyGamesTest extends TestCaseBase {
 	
 	
 	@Test(groups = {"ChromeWin32", "IEWin32"})
